@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-26T18:32:19 IST" name="Suite" finished-at="2022-11-26T18:33:15 IST" duration-ms="55757">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T18:32:19 IST" name="Test" finished-at="2022-11-26T18:33:15 IST" duration-ms="55757">
+      <class name="com.edusoln.runner.TestNGRunner">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:32:19 IST" name="beforeTest" finished-at="2022-11-26T18:32:19 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:32:20 IST" name="browserSetUp" finished-at="2022-11-26T18:32:33 IST" duration-ms="13072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="testcase(java.util.Map)[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:32:33 IST" name="testcase" data-provider="dp" finished-at="2022-11-26T18:32:38 IST" duration-ms="4546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{User id=Admin, Execute=Yes, TestCaseObjective=Verify Login works fine, AddEmployee=No, FirstName=No, LastName=No, MiddleName=No, EmpiID=No, Test case no=1, Password=admin123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:32:38 IST" name="tearDown" finished-at="2022-11-26T18:32:39 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:32:39 IST" name="browserSetUp" finished-at="2022-11-26T18:32:45 IST" duration-ms="5971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="testcase(java.util.Map)[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:32:45 IST" name="testcase" data-provider="dp" finished-at="2022-11-26T18:33:06 IST" duration-ms="21737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{User id=Admin, Execute=Yes, TestCaseObjective=Verify Add employee works fine, AddEmployee=Yes, FirstName=Sachin, LastName=Tendulkar, MiddleName=Ramesh, EmpiID=100, Test case no=2, Password=admin123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:33:06 IST" name="tearDown" finished-at="2022-11-26T18:33:07 IST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:33:07 IST" name="browserSetUp" finished-at="2022-11-26T18:33:13 IST" duration-ms="6136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="testcase(java.util.Map)[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:33:13 IST" name="testcase" data-provider="dp" finished-at="2022-11-26T18:33:13 IST" duration-ms="3" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{User id=Admin, Execute=No, TestCaseObjective=Verify Add employee works fine, AddEmployee=Yes, FirstName=Sourav, LastName=Ganguly, MiddleName=test, EmpiID=77, Test case no=3, Password=admin123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test case is not run ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test case is not run 
+at com.edusoln.runner.TestNGRunner.testcase(TestNGRunner.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:33:13 IST" name="tearDown" finished-at="2022-11-26T18:33:14 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.edusoln.runner.TestNGRunner@6a62689d]" started-at="2022-11-26T18:33:14 IST" name="afterTest" finished-at="2022-11-26T18:33:15 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.edusoln.runner.TestNGRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
